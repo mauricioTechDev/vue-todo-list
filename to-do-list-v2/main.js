@@ -9,7 +9,6 @@ var app = new Vue({
     addToList() {
       this.listOfTodos.push(this.todoItem)
       this.todoItem = null
-    },
-
+    }
   }
 })
