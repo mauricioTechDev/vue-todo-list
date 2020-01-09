@@ -1,0 +1,14 @@
+.title{
+  text-align: center;
+  border: 3px solid blue;
+}
+.todoList{
+  text-align: center;
+  border: 3px solid gray;
+}
+.listItems{
+  text-align: center;
+  background-color: gray;
+  color: white;
+  list-style: none;
+}
