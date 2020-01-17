@@ -21,7 +21,7 @@
         <li v-for="item in itemsTodo">
           <input type="checkbox" v-model="item.done">
           <span :class="{ completedItem: item.done }">{{ item.title }}</span>
-          <button type="button" name="button" @click="removeTodo(item)">Remove Item</button>
+          <span type="button" name="button" @click="removeTodo(item)">🗑️</span>
         </li>
       </ul>
 
