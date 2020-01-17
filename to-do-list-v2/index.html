@@ -7,10 +7,26 @@
   </head>
   <body>
     <div id="app">
+<<<<<<< HEAD
       <todoList></todoList>
 
     </div>
 
+=======
+      <h1 class="title">{{ title }}</h1>
+      <form class="todoList" v-on:submit.prevent="addToList"  >
+        <input type="text" v-model="todoItem" name="todoItem" placeholder="Add Item">
+        <button type="submit" name="button">ADD</button>
+      </form>
+
+      <ul>
+        <li v-for="items in listOfTodos" class="listItems">{{ items }}</li>
+      </ul>
+
+    </div>
+
+
+>>>>>>> d52906ab38e62d3f8e6150359a49fdfb69559e48
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script type="text/javascript" src="main.js"> </script>
   </body>

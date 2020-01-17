@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Vue.component('todoList', {
   template: `
   <div class="todoList">
@@ -51,3 +52,19 @@ var app = new Vue({
   }
 
 })
+=======
+var app = new Vue({
+  el: '#app',
+  data: {
+    title: "Vue to do list",
+    todoItem: "",
+    listOfTodos: []
+  },
+  methods: {
+    addToList() {
+      this.listOfTodos.push(this.todoItem)
+      this.todoItem = null
+    }
+  }
+})
+>>>>>>> d52906ab38e62d3f8e6150359a49fdfb69559e48
